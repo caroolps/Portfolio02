@@ -1,61 +1,17 @@
 ![Fatec-logo-9710C99301-seeklogo com](https://user-images.githubusercontent.com/61067500/81480184-54e16600-91fe-11ea-86d6-dbae737cefa1.png)   <img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61067500/81479704-434a8f00-91fb-11ea-8d71-0cf029bc25ab.png">
 
 
-- LIB ECLIPSE FOUNDATION;
-- TRABALHAMOS COM EVENTOS;
-- 
+### I- RESUMO DO PROJETO
 
-
-# Projeto Integrador - 2º semestre BD
-## Disciplinas:
-* Engenharia de Software - Prof Giuliano Bertotti
-* Lab II - Prof Adriana Jacinto
-* Arquitetura de Banco de Dados - Prof Emanuel Mineda
-
-
-### Resumo do Projeto 
-
-{GENÉRICO}
-
-### Tecnologias adotadas na solução 
-
-{GENÉRICO}
-
-## Tecnologias e Metodologias aplicadas
-
- - Gantt / JFreeCharts
- - Java
- - Docker / DockerCompose
- - PostgreSQL
- - Scrum
- - Versionamento com base em releases
-
-### Contribuições individuais/pessoais 
-
-### Aprendizados Efetivos 
-
-
-## Integrantes:
+O presente documento visa apresentar a solução tecnológica proposta pela equipe para atender às necessidades do cliente NECTO, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
  
-  * Caroline Paz de Sousa RA: 1460281923049
-  * Denise de Oliveira Silva RA: 1460281923007
-  * Fabio Odaguiri RA: 1460281923008
-  * Wilson Amore Vieira Filho RA: 1460281923041
-
-## Introdução:
-
-  O presente documento visa apresentar a solução tecnológica proposta pela equipe para atender às necessidades do cliente NECTO, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
- 
- A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
+A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
 
 Nesse passo, como característica principal, da qual decorrem as funcionalidades (requisitos), a aplicação deve possibilitar a alocação dos recursos humanos em um gráfico de GANTT (tarefas em linhas de tempo), gerando métricas sobre a ocupação e o tempo disponível da equipe para novos projetos e contingências. 
 
-A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, cobertura de ausências/férias de colaboradores, determinação de data de início de novos projetos, carga de trabalho por colaborador etc.
+A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o uso do tempo, v.g. mudanças de pessoas em tarefas/projetos, cobertura de ausências/férias de colaboradores, determinação de data de início de novos projetos, carga de trabalho por colaborador etc. Será utilizado o Java como linguagem de programação.
 
-Será utilizado o Java como linguagem de programação.
-
-## Elicitação e Identificação de Requisitos
- ### Declaração do Problema:
+ ### Descrição:
  
 A cliente NECTO busca melhorar o gerenciamento de seus projetos e consequentemente de sua equipe no dia a dia, buscando a melhor alocação de tempo possível porém, de forma humanizada, respeitando limite de tempo diário de trabalho, descanso semanal, férias,  ausências por motivos particulares e de saúde de cada colaborador.
 
@@ -72,83 +28,61 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 * Gerar Relatório;
 
 
-## Especificação de Requisitos:
- ### Funcionais:
-
-* Manipular a GUI na forma de diagrama interativo;
-* Cadastrar tarefas e projetos;
-* Criar interdependência entre tarefas;
-* Cadastrar colaboradores e realizar autenticação dos usuários (administrador,operador,etc);
-* Calcular as horas totais do projeto com base na carga horária das tarefas (tasks);
-* Calcular/Mostrar métricas de tempo x receita nos projetos com quantidade de horas/valor alocados em cada projeto, por dia. por semana, por mês e um "Grand Total";
-* Gerar relatórios por desenvolvedor, por período;
-* Armazenar dados (busca-se autosalvamento e versionamento de arquivo);
-* Dispor da informação sobre prazos reais e líquidos, contemplando calendário com dias úteis, finais de semana, feriados, férias e ausências, entre outros.
-
-|NOME|Cod|Descrição|
-|----|--|----------|
-|Diagrama Interativo|R1|Gerar gráficos de Gantt responsivos que ao ter a barra arrastada, calcule os prazos dos projetos, para melhor controle dos gestores.|
-|Cálculo de horas |R2|O sistema deve calcular as horas totais do projeto com base na carga horária das tarefas, de modo que, de acordo com situações que possam alongar ou adiantar as mesmas, os gestores tenham controle do prazo final do projeto.|
-|Cadastro de Tarefas|R3|O sistema deve permitir inserir novos projetos e tarefas relacionadas aos mesmos|
-|Cadastro de Colaboradores|R4|O sistema deve permitir a inserção de colaboradores e também a distribuição dos mesmos, em projetos e tarefas, baseado nas horas/recurso humanos.|
-|Relatórios|R5|Gerar relatórios.|
-|Horas|R6|O sistema deve mostrar a quantidade de horas/custo alocados em cada projeto.|
-|Calendário|R7|O sistema deve controlar o calendário a fim de monitorar: dias úteis, finais de semana, feriados, férias, e outras ausências.|
-|Importação|R8| O sistema poderá importar planilha (desnecessária a sua exportação).
-
-**DIAGRAMA DE CASO DE USO**
-![Diagrama de caso de uso_Atualizado](https://user-images.githubusercontent.com/61089745/81743282-ced05400-9477-11ea-96bb-afa824678ecf.PNG)
-
-### Não funcionais:
-
-* Sistema leve;
-* Baixa manutenção;
-* Portabilidade: o  sistema deverá rodar em qualquer plataforma;
-* Intuitivo;
-* Colorido;
-* Visual;
-* Gerencialmente Inteligível;
-
-
 ## Proposta
 
  A seguinte proposta visa entregar um  sistema que gere diagrama interativo (Gráfico de Gantt) de controle de tarefas, projetos e carga horária de cada recurso, trazendo uma interface intuitiva e amigável ao usuário.
-
- ![gantt4](https://user-images.githubusercontent.com/54503903/81460735-9da50a80-917d-11ea-8d43-042b45c3241a.gif)
  
+ 1- Estrutura do projeto
  
- ![gantt3](https://user-images.githubusercontent.com/54503903/81460795-feccde00-917d-11ea-8d71-061152ad9dd1.gif)
- 
- 
- ![gantt5](https://user-images.githubusercontent.com/54503903/81517212-89454700-9310-11ea-84f5-e20f23d8fb15.gif)
+ ![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
+
+2- Modelagem Conceitual
+
+![ModelagemConceitual](https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG)
+
+3- Modelagem Banco de Dados
+
+![ModelagemBD](https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG)
+
+4- Tela de Login
+
+![Login](https://user-images.githubusercontent.com/61089745/141656980-681987ac-1e9d-4fe9-bceb-9d83434fb975.PNG)
+
+5- Tela de Cadastro do Projeto
+
+![CadastroProjetosII](https://user-images.githubusercontent.com/61089745/141657004-75236913-3a62-4006-990a-4f89f0475a45.PNG)
+
+6- Tela de Cadastro do Funcionário
+
+![CadastroFuncionarios](https://user-images.githubusercontent.com/61089745/141657014-8a8603a8-4cef-4aad-8837-1d5aa535aebd.PNG)
+
+7- Tela de Cadastro da Tarefa
+
+![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141657029-41bfd888-73e2-4c8c-a9d2-26a065968dc2.PNG)
+
+8- Gráfico de Gantt
+
+![Gantt2](https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG)
+
+### II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
+
+- Gantt / Nebula:
+
+- JavaFx:
+
+- Calendar:
+
+- Java:
+
+- MySQL:
+
+- Scrum:
+
+### CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
 
 
-### Visão:
- Pesquisa das melhores tecnologias para o caso concreto, conjugando facilidade de desenvolvimento e estabilidade da aplicação em face da capacidade de entrega do grupo Pydevs, dentro do tempo disponível. 
 
-##  Usabilidade:
- **HEURISTICAS**
- 
-* Correspondência entre o sistema e o mundo real  
-
-O sistema possuirá uma interface intuitiva com menus e botões de ações de fácil entendimento, utilizando um nomenclatura familiar aos seus usuários. As ações tais quais exclusão ou criação de nova tarefa/projeto serão realizadas por meio de botões/opções de menu sinalizados por "deletar" ou simplesmente "X", tanto quanto "adicionar" ou "+". O calendário de acompanhamento de atividades do projeto será em português. Busca-se uma interface clique-e-arraste, induzindo os caminhos para que a utilização seja fluída.
-
-* Controle do usuário e liberdade  
-
-Com o sistema intuitivo, o usuário possuirá uma certa liberdade no sistema, minimizando erros, pois conseguirá identificar claramente  as funcionalidades e comandos disponíveis, sem precisar decorar procedimento algum. Sendo a facilidade em indentificar cada etapa do projeto e sua evolução devido o calendário de acompanhamento do projeto e as cores do gráfico de Gantt, ao acessar o sistema com capslock ligado o sistema avisará o usuário (campo de senha é CASE SENSITIVE), almeja-se que tenha autosalvamento, controle de versões, permitindo simulações (usabilidade do sistema). 
-
-* Design estético e minimalista  
-
-Com design intuitivo o sistema exibirá informações precisas e de fácil interpretação, com calendários e gráficos de barras coloridos, ícones familiares. O sistema deve utilizar cores na construção do gráfico para melhor identificação dos projetos/tarefas/pessoas em andamento e identificação de interdependência das atividades.
-
-* Ajuda e documentação  
-
-A interface será intuitiva para que o usuário tenha uma melhor experiência e liberdade em usar o sistema, o sistema será de fácil usabilidade sendo opcional a leitura de manual e documentação. Para os usuários que precisam desse documento na própria plataforma conterá um arquivo digital para ser baixado com as instruções de utilização objetiva.
+### APRENDIZADOS EFETIVOS
 
 
-## Instalação:
-
-Após os primeiros testes com nosso código, será possível decidir entre hospedagem em um endereço para acesso por meio de um navegador ou, se será necessária a instalação local nos computadores, com arquivo executável.
-
-A princípio, será compatível nas plataformas Windows, Linux e Mac OS.  
 
