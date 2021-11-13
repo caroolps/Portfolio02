@@ -85,18 +85,45 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 - Scrum: Continuamos a usar a metodologia scrum aprendida no primeiro semestre para realizar as entregas do projeto.
 
 
-### CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
+### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
 
-No segundo semestre demos início no aprendizado na Linguagem De Programação I, onde estava sedo incinado a utilizar a linguagem JAVA, com isso consegui aplicar o que estavamos aprendendo em aula em nosso projeto, criamos as entidades orientada a objetos, criamos 
+No segundo semestre iniciamos o aprendizado de Linguagem De Programação I, onde estava sendo lecionado sobre a linguagem JAVA, com isso foi possível conciliar o que estávamos aprendendo em aula e aplicar em nosso projeto, eu contribui com o projeto criando as principais camadas do backend como:
+- Entidades: Fiquei responsável pelas classes Projeto, Tarefa, Cadastro de tarefa e Cadastro de projeto orientada ao objeto utilizando os métodos getters, setters e o serializable é o processo no qual a instância de um objeto é transformada em uma sequência de bytes e é útil quando precisamos enviar objetos pela rede, salvar no disco, ou comunicar de uma JVM com outra;
 
-JAVAFX
-
-MYSQL
-CRUD 
-JDBC
+![Entities](https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG)
 
 
-### APRENDIZADOS EFETIVOS
+
+- Controller: Crie as classes controller do Projeto, Tarefa e cadastros. Como estávamos usando a aplicação desktop tive que fazer duas classes controller para cada entidade uma com a extensão .java e outra com extensão .fxml para realizar a conexão com o javaFx nosso front-end. 
+
+![ExtensaoClasses](https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG)
+
+- Service: Criei as classes Tarefa Service e Cadastro service e defini seus métodos na interface DAO.
+
+![Service](https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG)
+
+ 
+- Service implements: Criei as classes Tarefa e Cadastro e implementei os métodos definidos no Service com inteface DAO usando o JDBC.
+
+![image](https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png)
+
+
+- Classes DAO para conexão com o Banco de Dados: Criei as classes Tarefas e Cadastros para passar os métodos insert, delete, update e lista nas classes.
+
+![DAO](https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG)
+
+
+JAVAFX: Desenhei as telas para exibição do cadastro, edição e deleção da classe Tarefa, Projeto e Funcionário.
+
+![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG)
+
+MYSQL:Tive meu primeiro contato com o banco de dados, conseguimos conciliar o aprendizado da matéria Arquitetura e Modelagem de Banco de Dados e aplicarmos em nosso projeto. Eu contribui criando as tabelas Funcionário, Tarefa e Projetos, passando seus atributos e dimensões.
+
+![image](https://user-images.githubusercontent.com/61089745/141662257-f06ecc37-cb7f-4212-a92e-0aaef1580655.png)
+
+
+
+### IIII - APRENDIZADOS EFETIVOS
 
 JAVA
 CLASSES
