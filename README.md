@@ -93,6 +93,8 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
 - Java: é uma linguagem de programação orientada a objetos utilizamos em nosso back-end.
 
+- Eclipse: Eclipse é uma IDE para desenvolvimento Java.
+
 - MySQL: é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation. Por isso, escolhemos esse sistema para integrar com o nosso backend em java, para criar, deletar, editar e visualizar os dados através do java.
 
 - Scrum: Continuamos a usar a metodologia scrum aprendida no primeiro semestre para realizar as entregas do projeto.
@@ -166,3 +168,6 @@ Tive meu primeiro contato com o Banco de Dados conhecendo os principais comandos
 
 Conhecemos outra ferramenta de repositório o GIT Hub, tinhamos a vivência com a o GIT Lab e resolvemos conhecer outra ferramenta para aumentar nossas perspectivas e efetivar nossos aprendizados. Conseguimos aplicar os comando aprendidos no GIT Lab, reforçando os códigos via terminal (CMD).
 
+Conhecimento com a IDE Eclipse
+
+Primeiro contato com cliente externo da fatec e apresentação
