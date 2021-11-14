@@ -68,7 +68,7 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
 - JavaFx: é utizado para desenvolver aplicações desktop com java, usamos essa ferramenta para desenvolver o front-end do nosso projeto.
 
-- Gantt / Nebula:É uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência.
+- Gantt / Nebula: é uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência.
 
 ![ShowGantt](https://user-images.githubusercontent.com/61089745/141659977-db3e03ec-18c6-4e8a-90c6-8d080fc8f9ff.PNG)
 
@@ -80,19 +80,17 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
 - Java: é uma linguagem de programação orientada a objetos utilizamos em nosso back-end.
 
-- MySQL: O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation. Por isso, escolhemos esse sistema para integrar com o nosso backend em java, para criar, deletar, editar e visualizar os dados através do java.
+- MySQL: é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation. Por isso, escolhemos esse sistema para integrar com o nosso backend em java, para criar, deletar, editar e visualizar os dados através do java.
 
 - Scrum: Continuamos a usar a metodologia scrum aprendida no primeiro semestre para realizar as entregas do projeto.
 
 
 ### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
 
-No segundo semestre iniciamos o aprendizado de Linguagem De Programação I, onde estava sendo lecionado sobre a linguagem JAVA, com isso foi possível conciliar o que estávamos aprendendo em aula e aplicar em nosso projeto, eu contribui com o projeto criando as principais camadas do backend como:
+No segundo semestre iniciamos o aprendizado de Linguagem De Programação I, onde estava sendo lecionado sobre a linguagem JAVA, com isso foi possível conciliar o que estavámos aprendendo em aula e aplicar em nosso projeto, eu contribui com o projeto criando as principais camadas do backend como:
 - Entidades: Fiquei responsável pelas classes Projeto, Tarefa, Cadastro de tarefa e Cadastro de projeto orientada ao objeto utilizando os métodos getters, setters e o serializable é o processo no qual a instância de um objeto é transformada em uma sequência de bytes e é útil quando precisamos enviar objetos pela rede, salvar no disco, ou comunicar de uma JVM com outra;
 
 ![Entities](https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG)
-
-
 
 - Controller: Crie as classes controller do Projeto, Tarefa e cadastros. Como estávamos usando a aplicação desktop tive que fazer duas classes controller para cada entidade uma com a extensão .java e outra com extensão .fxml para realizar a conexão com o javaFx nosso front-end. 
 
@@ -125,26 +123,33 @@ MYSQL:Tive meu primeiro contato com o banco de dados, conseguimos conciliar o ap
 
 ### IIII - APRENDIZADOS EFETIVOS
 
-JAVA
-CLASSES
+Através do API, consegui programar pela primeira vez utilizando JAVA.
 
-ORIENTAÇÃO A OBJETOS
+- JAVA: Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems.
 
-JPA
+Através dessa linguagem aprendi sobre as principais camadas para construir uma aplicação como: Entidade, Service, Service implements, DAO e Controller. Uma estrutura que pode ser aplicada em qualquer projeto e inclusive estamos usando até os dias atuais. 
 
-DAO
+![image](https://user-images.githubusercontent.com/61089745/141662816-3e911c89-d405-43c9-9daa-60db2f6c1ec3.png)
 
-MODEL
 
-CONTROLLER
+No API anterior utilizamos o front-end web para integrar com a nossa aplicação em Python. Nesse novo projeto pude obter novo conhecimento e a vivência de realizar um projeto em desktop, com o desafio em realizar o front-end usando a ferramenta JavaFX. Para quem não conhecia nada sobre o mundo de tecnologia, juntamente com a FATEC pude aprender essas duas formas de aplicação.
 
-SERVICES
+![FX](https://user-images.githubusercontent.com/61089745/141662854-8bcebc08-1a5f-4cbb-b200-9bc2c57e8858.PNG)
 
-EXCEPTIONS
 
-BANCO DE DADOS
+Tive meu primeiro contato com o Banco de Dados conhecendo os principais comandos como criar uma Database, Tabelas utilizando o método CRUD (Create, Read, Update e Delete) é uma sigla utilizada para se referir às quatro operações básicas realizadas em banco de dados relacionais que são consulta, inclusão, alteração e exclusão dos registros. É um conhecimento básico que todo programador deve saber e com esses comandos é possível replicar em outros bancos de dados. Segue explanação de alguns comandos:
 
-JAVAFX
+- O comando INSERT é usado para inserir dados em uma tabela do banco;
 
-GIT HUB
+- O comando UPDATE é o responsável por fazer edições em registros que já constam no banco. Essa instrução é muito importante já que ela permite corrigir ou complementar os dados, garantindo que o banco tenha sempre informações atualizadas;
+
+- O comando DELETE é utilizado para excluir informações da nossa base de dados;
+
+- O comando SELECT é um dos comandos SQL mais importantes, pois com ele podemos elaborar diversas consultas aos registros da nossa base de dados;
+
+- O comando CREATE é usado sempre que precisamos criar novos objetos na base de dados;
+
+- o comando ALTER é utilizado quando precisamos alterar a estrutura de um objeto que já existe na base de dados.
+
+Conhecemos outra ferramenta de repositório o GIT Hub, tinhamos a vivência com a o GIT Lab e resolvemos conhecer outra ferramenta para aumentar nossas perspectivas e efetivar nossos aprendizados. Conseguimos aplicar os comando aprendidos no GIT Lab, reforçando os códigos via terminal (CMD).
 
