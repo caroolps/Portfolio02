@@ -1,4 +1,4 @@
-# LISTA DOS PORTFÓLIOS
+# LISTA PORTFÓLIOS
 
 [PROJECT-SEMESTRE-01-2019.2 - **DANZO - Mapeador de Criminalidade ao Redor da FATEC**](https://github.com/caroolps/Portfolio01) 
 
@@ -13,7 +13,7 @@
 
 ### I- RESUMO DO PROJETO
 
-Afim de atender às necessidades do cliente NECTO, neste documento visa apresentar a solução tecnológica proposta pela equipe, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
+Neste segundo Projeto Integrador, a FATEC trouxe o primeiro Cliente "NECTO" para que pudessemos achar uma solução tecnológica para sanar e atender às necessidades do cliente neste documento visa apresentar a solução tecnológica proposta pela equipe, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
  
 A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
 
