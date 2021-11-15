@@ -2,9 +2,9 @@
 
 [PROJECT-SEMESTRE-01-2019.2 - **DANZO - Mapeador de Criminalidade ao Redor da FATEC**](https://github.com/caroolps/Portfolio01) 
 
-[PROJECT-SEMESTRE-02-2020.1 - **GANTT Chart**](https://github.com/caroolps/Portfolio02)
+[PROJECT-SEMESTRE-02-2020.1 - **GANTT CHART**](https://github.com/caroolps/Portfolio02)
 
-[PROJECT-SEMESTRE-03-2020.2 - **Cadastro Positivo**](https://github.com/caroolps/Portfolio03) 
+[PROJECT-SEMESTRE-03-2020.2 - **CADASTRO POSITIVO**](https://github.com/caroolps/Portfolio03) 
 
 
 ![Fatec-logo-9710C99301-seeklogo com](https://user-images.githubusercontent.com/61067500/81480184-54e16600-91fe-11ea-86d6-dbae737cefa1.png)   <img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61067500/81479704-434a8f00-91fb-11ea-8d71-0cf029bc25ab.png">
