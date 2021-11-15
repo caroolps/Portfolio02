@@ -13,7 +13,7 @@
 
 ### I- RESUMO DO PROJETO
 
-Neste segundo Projeto Integrador, a FATEC trouxe o primeiro Cliente "NECTO" para que pudessemos achar uma solução tecnológica para sanar e atender às necessidades do cliente. Eeste documento visa apresentar a solução tecnológica proposta pela equipe, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
+Neste segundo Projeto Integrador, a FATEC trouxe o primeiro Cliente "NECTO" para que pudessemos achar uma solução tecnológica para sanar e atender às necessidades do cliente. Este documento visa apresentar a solução tecnológica proposta pela equipe, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
  
 A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
 
