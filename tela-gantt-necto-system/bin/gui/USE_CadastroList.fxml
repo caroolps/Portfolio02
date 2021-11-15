@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="582.0" prefWidth="1074.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.USE_CadastroListController">
+   <children>
+      <Label prefHeight="46.0" prefWidth="1079.0" style="-fx-background-color: #3F2863;" text="Cadastro de Funcionários" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="18.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <ToolBar prefHeight="43.0" prefWidth="1074.0">
+        <items>
+          <Button fx:id="btNew" mnemonicParsing="false" onAction="#onBtNewAction" text="New" />
+        </items>
+      </ToolBar>
+      <TableView fx:id="tableViewProjetos3" prefHeight="481.0" prefWidth="1074.0">
+        <columns>
+          <TableColumn fx:id="tableColumnId" prefWidth="56.0" text="Id" />
+          <TableColumn fx:id="tableColumnUse_nome" prefWidth="138.0" text="Nome Funcionário" />
+            <TableColumn fx:id="tableColumUse_sobrenome" prefWidth="94.0" text="Sobrenome" />
+            <TableColumn fx:id="tableColumnUse_departamento" prefWidth="91.0" text="Departamento" />
+            <TableColumn fx:id="tableColumnUse_estag_efetivo" prefWidth="86.0" text="Estag / Efetivo" />
+            <TableColumn fx:id="tableColumnUse_horas_usuario" prefWidth="135.0" text="Horas Funcionário" />
+            <TableColumn fx:id="tableColumnEDIT" prefWidth="92.0" />
+            <TableColumn fx:id="tableColumnREMOVE" prefWidth="83.0" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
