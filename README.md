@@ -6,10 +6,6 @@
 
 [PROJECT-SEMESTRE-03-2020.2 - **Cadastro Positivo**](https://github.com/caroolps/Portfolio03) 
 
-[PROJECT-SEMESTRE-04-2021.1 - **Oracle HR Solution  for searching candidates via API** ](https://github.com/caroolps/Portfolio04) 
-
-[PROJECT-SEMESTRE-05-2021.2 - **Pentaho & Data Warehouse Analytics of Education** ](https://github.com/caroolps/Portfolio05) 
-
 
 ![Fatec-logo-9710C99301-seeklogo com](https://user-images.githubusercontent.com/61067500/81480184-54e16600-91fe-11ea-86d6-dbae737cefa1.png)   <img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61067500/81479704-434a8f00-91fb-11ea-8d71-0cf029bc25ab.png">
 
@@ -17,7 +13,7 @@
 
 ### I- RESUMO DO PROJETO
 
-O presente documento visa apresentar a solução tecnológica proposta pela equipe para atender às necessidades do cliente NECTO, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
+Afim de atender às necessidades do cliente NECTO, neste documento visa apresentar a solução tecnológica proposta pela equipe, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
  
 A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
 
@@ -42,7 +38,7 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 * Gerar Relatório;
 
 
-## Proposta
+### Proposta
 
  A seguinte proposta visa entregar um  sistema que gere diagrama interativo (Gráfico de Gantt) de controle de tarefas, projetos e carga horária de cada recurso, trazendo uma interface intuitiva e amigável ao usuário.
  
@@ -74,29 +70,36 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
 ![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141657029-41bfd888-73e2-4c8c-a9d2-26a065968dc2.PNG)
 
-8- Gráfico de Gantt sendo exibido conforme o projeto, tarefa e data de inicio e fim de cada dependência
+8- Gráfico de Gantt interativo sendo exibido conforme o projeto selecionado e apresentando cada tarefa com a data de inicio e final e suas dependências. Seu atrativo é a interação do usuário por meio de arrastar e soltar e redimensiona as tarefas
 
 ![Gantt2](https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG)
 
 ### II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
-- JavaFx: é utizado para desenvolver aplicações desktop com java, usamos essa ferramenta para desenvolver o front-end do nosso projeto.
+Para conciliar o aprendizado com as matérias lecionadas na FATEC, escolhemos a linguagem Java para desenvolver o backend e o Banco de Dados SQL.
 
-- Gantt / Nebula: é uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência.
+Desta forma, contamos com a orientação dos Docentes e muita pesquisa em fóruns virtuais especializados para implementar blocos de códigos com propósito específico.
+
+As bibliotecas e tecnologias mais importantes utilizadas foram:
+
+
+- JavaFx: É uma ferramenta ututilizada para desenvolver aplicações desktop com java, usamos essa tecnologia para desenvolver o front-end do projeto.
+
+- Gantt / Nebula: É uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência.
 
 ![ShowGantt](https://user-images.githubusercontent.com/61089745/141659977-db3e03ec-18c6-4e8a-90c6-8d080fc8f9ff.PNG)
 
-- Calendar: Essa classe pode produzir os valores de todos os campos de calendário necessários para implementar a formatação de data e hora, para uma determinada língua e estilo de calendário. Usamos juntamente com o Gantt para mostrarmos a data de início e final de cada tarefa e dependência  no gráfico de Gantt.
+- Calendar: Essa biblioteca pode produzir os valores de todos os campos de calendário necessários para implementar a formatação de data e hora, para uma determinada língua e estilo de calendário. Usamos juntamente com o Gantt para mostrarmos a data de início e final de cada tarefa e dependência no gráfico de Gantt.
 
 ![CalendarBiblioteca](https://user-images.githubusercontent.com/61089745/141659932-dcffb9a5-21fe-48b8-869d-d3da453b7d90.PNG)
 
 ![CalendarCodigo](https://user-images.githubusercontent.com/61089745/141659947-761d230f-4b7b-4def-94eb-ed2a676ca744.PNG)
 
-- Java: é uma linguagem de programação orientada a objetos utilizamos em nosso back-end.
+- Java: É uma linguagem de programação orientada a objetos utilizamos em nosso back-end.
 
 - Eclipse: Eclipse é uma IDE para desenvolvimento Java.
 
-- MySQL: é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation. Por isso, escolhemos esse sistema para integrar com o nosso backend em java, para criar, deletar, editar e visualizar os dados através do java.
+- MySQL: É um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation. Por isso, escolhemos esse sistema para integrar com o nosso backend em java.
 
 - Scrum: Continuamos a usar a metodologia scrum aprendida no primeiro semestre para realizar as entregas do projeto.
 
@@ -108,16 +111,18 @@ No segundo semestre iniciamos o aprendizado de Linguagem De Programação I, ond
 
 ![Entities](https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG)
 
-- Controller: Crie as classes controller do Projeto, Tarefa e cadastros. Como estávamos usando a aplicação desktop tive que fazer duas classes controller para cada entidade uma com a extensão .java e outra com extensão .fxml para realizar a conexão com o javaFx nosso front-end. 
+- Controller: Criei as classes controller do Projeto, Tarefa e Cadastros. Como estávamos usando a aplicação desktop tive que fazer duas classes controller para cada entidade uma com a extensão .java e outra com extensão .fxml para realizar a conexão com o javaFx nosso front-end. 
 
 ![ExtensaoClasses](https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG)
 
-- Service: Criei as classes Tarefa Service e Cadastro service e defini seus métodos na interface DAO.
+- Service: Criei as classes Tarefa Service e Cadastro Service definindo seus métodos na interface DAO.
 
 ![Service](https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG)
 
  
 - Service implements: Criei as classes Tarefa e Cadastro e implementei os métodos definidos no Service com inteface DAO usando o JDBC.
+
+Java Database Connectivity (JDBC) é um conjunto de classes e interfaces escritas em Java que fazem o envio de instruções SQL para qualquer banco de dados relacional; 
 
 ![image](https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png)
 
@@ -168,7 +173,6 @@ Tive meu primeiro contato com o Banco de Dados conhecendo os principais comandos
 - o comando ALTER é utilizado quando precisamos alterar a estrutura de um objeto que já existe na base de dados.
 
 Conhecemos outra ferramenta de repositório o GIT Hub, tinhamos a vivência com a o GIT Lab e resolvemos conhecer outra ferramenta para aumentar nossas perspectivas e efetivar nossos aprendizados. Conseguimos aplicar os comando aprendidos no GIT Lab, reforçando os códigos via terminal (CMD).
+- Conhecimento referente a IDE Eclipse.
 
-Conhecimento com a IDE Eclipse
-
-Primeiro contato com cliente externo da fatec e apresentação
+E aprendemos a lidar com o cliente externo da Fatec, aperfeiçoando a comunicação, entendimento, criação de requisitos, definições de prioridade e como elaborar uma boa apresentação.
