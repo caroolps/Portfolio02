@@ -46,7 +46,7 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
  
  ![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
 
-2- Modelagem Conceitual para ser implantada no Banco de Dados MYSQL
+2- Modelagem Conceitual para ser implantada no Banco de Dados MYSQL.
 
 ![ModelagemConceitual](https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG)
 
@@ -54,38 +54,38 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
 ![ModelagemBD](https://user-images.githubusercontent.com/61089745/141656954-10700f13-b26b-4513-b51b-a5a20a4429e6.PNG)
 
-4- Tela de Login
+4- Tela de Login.
 
 ![Login](https://user-images.githubusercontent.com/61089745/141656980-681987ac-1e9d-4fe9-bceb-9d83434fb975.PNG)
 
-5- Tela de Cadastro do Projeto com possibilidade de editar, excluir e cadastrar um novo projeto conectado ao banco de dados
+5- Tela de Cadastro do Projeto com possibilidade de editar, excluir e cadastrar um novo projeto conectado ao banco de dados.
 
 ![CadastroProjetosII](https://user-images.githubusercontent.com/61089745/141657004-75236913-3a62-4006-990a-4f89f0475a45.PNG)
 
-6- Tela de Cadastro do Funcionário com possibilidade de editar, excluir e cadastrar um novo funcionário conectado ao banco de dados
+6- Tela de Cadastro do Funcionário com possibilidade de editar, excluir e cadastrar um novo funcionário conectado ao banco de dados.
 
 ![CadastroFuncionarios](https://user-images.githubusercontent.com/61089745/141657014-8a8603a8-4cef-4aad-8837-1d5aa535aebd.PNG)
 
-7- Tela de Cadastro da Tarefa com possibilidade de editar, excluir e cadastrar uma nova tarefa conectado ao banco de dados
+7- Tela de Cadastro da Tarefa com possibilidade de editar, excluir e cadastrar uma nova tarefa conectado ao banco de dados.
 
 ![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141657029-41bfd888-73e2-4c8c-a9d2-26a065968dc2.PNG)
 
-8- Gráfico de Gantt interativo sendo exibido conforme o projeto selecionado e apresentando cada tarefa com a data de início e final e suas dependências. Seu atrativo é a interação do usuário por meio de arrastar e soltar e redimensiona as tarefas
+8- Gráfico de Gantt interativo sendo exibido conforme o projeto selecionado e apresentando cada tarefa com a data de início e final e suas dependências. Seu atrativo é a interação do usuário por meio de arrastar e soltar e redimensionar as tarefas.
 
 ![Gantt2](https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG)
 
 ### II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
 
-Para conciliar o aprendizado com as matérias lecionadas na FATEC, escolhemos a linguagem Java para desenvolver o backend e o Banco de Dados SQL.
+Para conciliar o aprendizado com as matérias lecionadas na FATEC, escolhemos a linguagem Java para desenvolver o backend e o Banco de Dados MySQL.
 
 Desta forma, contamos com a orientação dos Docentes e muita pesquisa em fóruns virtuais especializados para implementar blocos de códigos com propósito específico.
 
-As bibliotecas e tecnologias mais importantes utilizadas foram:
+As bibliotecas e tecnologias utilizadas foram:
 
 
-- JavaFx: É uma ferramenta utilizada para desenvolver aplicações desktop com java, usamos essa tecnologia para desenvolver o front-end do projeto.
+- JavaFx: É uma ferramenta utilizada para desenvolver aplicações desktop em java, usamos essa tecnologia para desenvolver o front-end do projeto.
 
-- Gantt / Nebula: É uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência.
+- Gantt / Nebula: É uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência. Essa foi a segunda biblioteca que testamos e deu certo. Mas primeiramente tentamos implementar JFreeCharts porém não obtemos sucesso. 
 
 ![ShowGantt](https://user-images.githubusercontent.com/61089745/141659977-db3e03ec-18c6-4e8a-90c6-8d080fc8f9ff.PNG)
 
@@ -173,6 +173,7 @@ Tive meu primeiro contato com o Banco de Dados conhecendo os principais comandos
 - O comando ALTER é utilizado quando precisamos alterar a estrutura de um objeto que já existe na base de dados.
 
 Conhecemos outra ferramenta de repositório o GIT Hub, tinhamos a vivência com a o GIT Lab e resolvemos conhecer outra ferramenta para aumentar nossas perspectivas e efetivar nossos aprendizados. Conseguimos aplicar os comando aprendidos no GIT Lab, reforçando os códigos via terminal (CMD).
+
 - Conhecimento referente a IDE Eclipse.
 
-E aprendemos a lidar com o cliente externo da Fatec, aperfeiçoando a comunicação, entendimento, criação de requisitos, definições de prioridade e como elaborar uma boa apresentação.
+E no final do projeto, com um semestre conturbado de incertezas e pandemia aprendemos mais sobre o soft skill, sabendo trabalhar em grupo, lidar melhor com os colegas e respeitar as limitações de cada um. Tivemos dois integrantes da equipe deixaram o grupo por questões de saúde e consequentimente nos redobramos para entregar as sprints. Além desse desafio foi nosso primeiro contato com o cliente externo e conseguimos aperfeiçoar a comunicação, entendimento, criação de requisitos, definições de prioridade e como elaborar uma boa apresentação.
