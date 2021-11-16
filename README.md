@@ -42,7 +42,7 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
  A seguinte proposta visa entregar um  sistema que gere diagrama interativo (Gráfico de Gantt) de controle de tarefas, projetos e carga horária de cada recurso, trazendo uma interface intuitiva e amigável ao usuário.
  
- 1- Estrutura do projeto divido em camadas:
+ 1- Estrutura do projeto dividido em camadas:
  
  ![Estrutura](https://user-images.githubusercontent.com/61089745/141656917-4c7bceb8-5ca6-4b42-8643-a97302af5c39.PNG)
 
