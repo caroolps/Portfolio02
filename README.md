@@ -58,7 +58,7 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
 ![Login](https://user-images.githubusercontent.com/61089745/141656980-681987ac-1e9d-4fe9-bceb-9d83434fb975.PNG)
 
-5- Tela de Cadastro do Projeto com possibilidade de editar, excluir e cadastrar um novo projeto interligado ao banco de dados
+5- Tela de Cadastro do Projeto com possibilidade de editar, excluir e cadastrar um novo projeto conectado ao banco de dados
 
 ![CadastroProjetosII](https://user-images.githubusercontent.com/61089745/141657004-75236913-3a62-4006-990a-4f89f0475a45.PNG)
 
