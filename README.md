@@ -13,7 +13,7 @@
 
 ### I- RESUMO DO PROJETO
 
-Neste segundo Projeto Integrador, a FATEC trouxe o primeiro Cliente "NECTO" para que pudessemos achar uma solução tecnológica para sanar e atender às necessidades do cliente. Este documento visa apresentar a solução tecnológica proposta pela equipe, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
+Neste segundo Projeto Integrador, a FATEC trouxe o primeiro Cliente "NECTO" para que pudéssemos achar uma solução tecnológica para sanar e atender às necessidades do cliente. Este documento visa apresentar a solução tecnológica proposta pela equipe, possibilitando a identificação e classificação dos requisitos, que nortearão o desenvolvimento do projeto.
  
 A solução consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
 
@@ -70,7 +70,7 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 
 ![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141657029-41bfd888-73e2-4c8c-a9d2-26a065968dc2.PNG)
 
-8- Gráfico de Gantt interativo sendo exibido conforme o projeto selecionado e apresentando cada tarefa com a data de inicio e final e suas dependências. Seu atrativo é a interação do usuário por meio de arrastar e soltar e redimensiona as tarefas
+8- Gráfico de Gantt interativo sendo exibido conforme o projeto selecionado e apresentando cada tarefa com a data de início e final e suas dependências. Seu atrativo é a interação do usuário por meio de arrastar e soltar e redimensiona as tarefas
 
 ![Gantt2](https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG)
 
@@ -83,7 +83,7 @@ Desta forma, contamos com a orientação dos Docentes e muita pesquisa em fórun
 As bibliotecas e tecnologias mais importantes utilizadas foram:
 
 
-- JavaFx: É uma ferramenta ututilizada para desenvolver aplicações desktop com java, usamos essa tecnologia para desenvolver o front-end do projeto.
+- JavaFx: É uma ferramenta utilizada para desenvolver aplicações desktop com java, usamos essa tecnologia para desenvolver o front-end do projeto.
 
 - Gantt / Nebula: É uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência.
 
@@ -106,7 +106,7 @@ As bibliotecas e tecnologias mais importantes utilizadas foram:
 
 ### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
 
-No segundo semestre iniciamos o aprendizado de Linguagem De Programação I, onde estava sendo lecionado sobre a linguagem JAVA, com isso foi possível conciliar o que estavámos aprendendo em aula e aplicar em nosso projeto, eu contribui com o projeto criando as principais camadas do backend como:
+No segundo semestre iniciamos o aprendizado de Linguagem De Programação I, onde estava sendo lecionado sobre a linguagem JAVA, com isso foi possível conciliar o que estávamos aprendendo em aula e aplicar em nosso projeto, eu contribuí com o projeto criando as principais camadas do backend como:
 - Entidades: Fiquei responsável pelas classes Projeto, Tarefa, Cadastro de tarefa e Cadastro de projeto orientada ao objeto utilizando os métodos getters, setters e o serializable é o processo no qual a instância de um objeto é transformada em uma sequência de bytes e é útil quando precisamos enviar objetos pela rede, salvar no disco, ou comunicar de uma JVM com outra;
 
 ![Entities](https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG)
@@ -136,7 +136,7 @@ JAVAFX: Desenhei as telas para exibição do cadastro, edição e deleção da c
 
 ![CadastroTarefa](https://user-images.githubusercontent.com/61089745/141662165-caf52ddc-0949-4b67-92d0-59bc7fb3d766.PNG)
 
-MYSQL:Tive meu primeiro contato com o banco de dados, conseguimos conciliar o aprendizado da matéria Arquitetura e Modelagem de Banco de Dados e aplicarmos em nosso projeto. Eu contribui criando as tabelas Funcionário, Tarefa e Projetos, passando seus atributos e dimensões.
+MYSQL:Tive meu primeiro contato com o banco de dados, conseguimos conciliar o aprendizado da matéria Arquitetura e Modelagem de Banco de Dados e aplicarmos em nosso projeto. Eu contribuí criando as tabelas Funcionário, Tarefa e Projetos, passando seus atributos e dimensões.
 
 ![image](https://user-images.githubusercontent.com/61089745/141662257-f06ecc37-cb7f-4212-a92e-0aaef1580655.png)
 
@@ -170,7 +170,7 @@ Tive meu primeiro contato com o Banco de Dados conhecendo os principais comandos
 
 - O comando CREATE é usado sempre que precisamos criar novos objetos na base de dados;
 
-- o comando ALTER é utilizado quando precisamos alterar a estrutura de um objeto que já existe na base de dados.
+- O comando ALTER é utilizado quando precisamos alterar a estrutura de um objeto que já existe na base de dados.
 
 Conhecemos outra ferramenta de repositório o GIT Hub, tinhamos a vivência com a o GIT Lab e resolvemos conhecer outra ferramenta para aumentar nossas perspectivas e efetivar nossos aprendizados. Conseguimos aplicar os comando aprendidos no GIT Lab, reforçando os códigos via terminal (CMD).
 - Conhecimento referente a IDE Eclipse.
