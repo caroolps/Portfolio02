@@ -83,7 +83,7 @@ Desta forma, contamos com a orientação dos Docentes e muita pesquisa em fórun
 As bibliotecas e tecnologias utilizadas foram:
 
 
-- JavaFx: É uma ferramenta utilizada para desenvolver aplicações desktop em java, usamos essa tecnologia para desenvolver o front-end do projeto.
+- JavaFx: É uma ferramenta utilizada para desenvolver aplicações desktop em java, usamos essa tecnologia para desenvolver o front-end do projeto. Por termos pouco conhecimento em JAVA e o medo de não consegui integrar o back-end com o um front-end web, após pesquisas e decisão da maioria do grupo optamos em desenvolver nosso front através dessa ferramenta por acharmos ser mais fácil o aprendizado.
 
 - Gantt / Nebula: É uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência. Essa foi a segunda biblioteca que testamos e deu certo. Mas primeiramente tentamos implementar JFreeCharts porém não obtemos sucesso. 
 
