@@ -13,8 +13,6 @@
 ### I- RESUMO DO PROJETO
 
 Neste segundo Projeto Integrador a FATEC trouxe o primeiro Cliente "NECTO" para que pudéssemos achar uma solução tecnológica para sanar e atender às necessidades do cliente. 
-
- ### Descrição:
  
 A cliente NECTO busca melhorar o gerenciamento de seus projetos e consequentemente de sua equipe no dia a dia, buscando a melhor alocação de tempo possível porém, de forma humanizada, respeitando limite de tempo diário de trabalho, descanso semanal, férias,  ausências por motivos particulares e de saúde de cada colaborador.
 
@@ -30,7 +28,7 @@ Com base nesse briefing, solicita um programa simples e funcional, de baixa manu
 * Exportar arquivo para envio a terceiros (cliente e outros stakeholders, em PDF ou HTML ou GDOCs);
 * Gerar Relatório;
 
-### Proposta
+### Proposta:
 
 A solução proposta pela equipe consiste numa aplicação visual de planejamento estratégico e gerenciamento de tempo dos seus recursos humanos em projetos de desenvolvimento de softwares (seu core business).
 
