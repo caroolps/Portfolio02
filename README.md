@@ -1,15 +1,14 @@
-# LISTA PORTFÓLIOS
+## 📚 Seções Portfólios
 
-[PROJECT-SEMESTRE-01-2019.2 - **DANZO - Mapeador de Criminalidade ao Redor da FATEC**](https://github.com/caroolps/Portfolio01) 
+<h4 align="left"><a href="https://github.com/caroolps/Portfolio01">PROJETO 1º SEMESTRE: Mapeador de Criminalidade ao Redor da FATEC</a></h4>
+<h4 align="left"><a href="https://github.com/caroolps/Portfolio02">PROJETO 2º SEMESTRE: Gantt Chart</a></h4>
+<h4 align="left"><a href="https://github.com/caroolps/Portfolio03">PROJETO 3º SEMESTRE: Cadastro Positivo</a></h4>
+<h4 align="left"><a href="https://github.com/caroolps/Portfolio04">PROJETO 4º SEMESTRE: Projeto04</a></h4>
+<h4 align="left"><a href="https://github.com/caroolps/Portfolio05">PROJETO 5º SEMESTRE: Projeto05</a></h4>
 
-[PROJECT-SEMESTRE-02-2020.1 - **GANTT CHART**](https://github.com/caroolps/Portfolio02)
+![image](https://user-images.githubusercontent.com/61089745/158082449-894548ea-e14d-4de7-896d-12d2a9ec1d74.png)
 
-[PROJECT-SEMESTRE-03-2020.2 - **CADASTRO POSITIVO**](https://github.com/caroolps/Portfolio03) 
-
-
-![Fatec-logo-9710C99301-seeklogo com](https://user-images.githubusercontent.com/61067500/81480184-54e16600-91fe-11ea-86d6-dbae737cefa1.png)   <img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61067500/81479704-434a8f00-91fb-11ea-8d71-0cf029bc25ab.png">
-
-# PROJETO INTEGRADOR 2020.1 - FATEC & NECTO - GANTT CHART
+# PROJETO INTEGRADOR - FATEC & NECTO - GANTT CHART
 
 ### I- RESUMO DO PROJETO
 
