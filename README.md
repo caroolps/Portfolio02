@@ -43,7 +43,7 @@ A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o 
 
 2- Modelagem Conceitual para ser implantada no Banco de Dados MYSQL.
 
-![ModelagemConceitual](https://user-images.githubusercontent.com/61089745/141656940-7af9ae17-2bdd-4853-acbf-d6ee7405a267.PNG)
+![image](https://user-images.githubusercontent.com/61089745/159168697-161066df-df89-4150-8130-134cf4fcb36e.png)
 
 3- Modelagem utilizada no Banco de Dados no MYSQL
 
@@ -77,25 +77,31 @@ Desta forma, contamos com a orientação dos Docentes e muita pesquisa em fórun
 
 As bibliotecas e tecnologias utilizadas foram:
 
-
+![image](https://user-images.githubusercontent.com/61089745/159168843-037664ad-a6e9-4904-bbe2-1c6550074487.png)
 - JavaFx: É uma ferramenta utilizada para desenvolver aplicações desktop em java, usamos essa tecnologia para desenvolver o front-end do projeto. Por termos pouco conhecimento em JAVA e o medo de não consegui integrar o back-end com o um front-end web, após pesquisas e decisão da maioria do grupo optamos em desenvolver nosso front através dessa ferramenta por acharmos ser mais fácil o aprendizado.
 
+![image](https://user-images.githubusercontent.com/61089745/159168925-40f2b5c3-7045-4e25-9001-95c5b0265a07.png)
 - Gantt / Nebula: É uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência. Essa foi a segunda biblioteca que testamos e deu certo. Mas primeiramente tentamos implementar JFreeCharts porém não obtemos sucesso. 
 
 ![ShowGantt](https://user-images.githubusercontent.com/61089745/141659977-db3e03ec-18c6-4e8a-90c6-8d080fc8f9ff.PNG)
 
+![image](https://user-images.githubusercontent.com/61089745/159169018-69d92f91-43cd-4b91-a263-dc388bea6206.png)
 - Calendar: Essa biblioteca pode produzir os valores de todos os campos de calendário necessários para implementar a formatação de data e hora, para uma determinada língua e estilo de calendário. Usamos juntamente com o Gantt para mostrarmos a data de início e final de cada tarefa e dependência no gráfico de Gantt.
 
 ![CalendarBiblioteca](https://user-images.githubusercontent.com/61089745/141659932-dcffb9a5-21fe-48b8-869d-d3da453b7d90.PNG)
 
 ![CalendarCodigo](https://user-images.githubusercontent.com/61089745/141659947-761d230f-4b7b-4def-94eb-ed2a676ca744.PNG)
 
+![image](https://user-images.githubusercontent.com/61089745/159169090-839cbec0-693a-4082-b88d-d949e0fefe38.png)
 - Java: É uma linguagem de programação orientada a objetos utilizamos em nosso back-end.
 
+![image](https://user-images.githubusercontent.com/61089745/159169148-5692d55d-ca9e-4895-be96-625d263b0669.png)
 - Eclipse: Eclipse é uma IDE para desenvolvimento Java.
 
+![image](https://user-images.githubusercontent.com/61089745/159169211-28a70adb-35f2-4903-a540-f82d9a705f12.png)
 - MySQL: É um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation. Por isso, escolhemos esse sistema para integrar com o nosso backend em java.
 
+![image](https://user-images.githubusercontent.com/61089745/159169247-e093f789-1d04-4b26-a505-0a63e103854f.png)
 - Scrum: Continuamos a usar a metodologia scrum aprendida no primeiro semestre para realizar as entregas do projeto.
 
 
