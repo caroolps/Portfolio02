@@ -83,14 +83,12 @@ As bibliotecas e tecnologias utilizadas foram:
 ![image](https://user-images.githubusercontent.com/61089745/159168925-40f2b5c3-7045-4e25-9001-95c5b0265a07.png)
 - Gantt / Nebula: É uma biblioteca java que usamos para gerar o gráfico de GANTT totalmente personalizável para exibir qualquer coisa, desde um gráfico simples até permitir a interação do usuário por meio de arrastar e soltar e redimensionar, bem como interação de dependência. Essa foi a segunda biblioteca que testamos e deu certo. Mas primeiramente tentamos implementar JFreeCharts porém não obtemos sucesso. 
 
-![ShowGantt](https://user-images.githubusercontent.com/61089745/141659977-db3e03ec-18c6-4e8a-90c6-8d080fc8f9ff.PNG)
+![image](https://user-images.githubusercontent.com/61089745/159169361-0272df44-578c-44f1-8e5a-b782d6d8d9aa.png)
 
 ![image](https://user-images.githubusercontent.com/61089745/159169018-69d92f91-43cd-4b91-a263-dc388bea6206.png)
 - Calendar: Essa biblioteca pode produzir os valores de todos os campos de calendário necessários para implementar a formatação de data e hora, para uma determinada língua e estilo de calendário. Usamos juntamente com o Gantt para mostrarmos a data de início e final de cada tarefa e dependência no gráfico de Gantt.
 
-![CalendarBiblioteca](https://user-images.githubusercontent.com/61089745/141659932-dcffb9a5-21fe-48b8-869d-d3da453b7d90.PNG)
-
-![CalendarCodigo](https://user-images.githubusercontent.com/61089745/141659947-761d230f-4b7b-4def-94eb-ed2a676ca744.PNG)
+![image](https://user-images.githubusercontent.com/61089745/159169623-6ea5e2bb-e02d-44d6-ac19-b1dd2f28bcdb.png)
 
 ![image](https://user-images.githubusercontent.com/61089745/159169090-839cbec0-693a-4082-b88d-d949e0fefe38.png)
 - Java: É uma linguagem de programação orientada a objetos utilizamos em nosso back-end.
@@ -110,27 +108,27 @@ As bibliotecas e tecnologias utilizadas foram:
 No segundo semestre iniciamos o aprendizado de Linguagem De Programação I, onde estava sendo lecionado sobre a linguagem JAVA, com isso foi possível conciliar o que estávamos aprendendo em aula e aplicar em nosso projeto, eu contribuí com o projeto criando as principais camadas do backend como:
 - Entidades: Fiquei responsável pelas classes Projeto, Tarefa, Cadastro de tarefa e Cadastro de projeto orientada ao objeto utilizando os métodos getters, setters e o serializable é o processo no qual a instância de um objeto é transformada em uma sequência de bytes e é útil quando precisamos enviar objetos pela rede, salvar no disco, ou comunicar de uma JVM com outra;
 
-![Entities](https://user-images.githubusercontent.com/61089745/141661748-853192b1-eb41-4289-8833-2fe22a038937.PNG)
+![image](https://user-images.githubusercontent.com/61089745/159169699-dfe50252-5231-4f46-9f50-59818fe1d29a.png)
 
 - Controller: Criei as classes controller do Projeto, Tarefa e Cadastros. Como estávamos usando a aplicação desktop tive que fazer duas classes controller para cada entidade uma com a extensão .java e outra com extensão .fxml para realizar a conexão com o javaFx nosso front-end. 
 
-![ExtensaoClasses](https://user-images.githubusercontent.com/61089745/141661946-5d4840d6-5ee6-4b17-b782-789d3cbadacb.PNG)
+![image](https://user-images.githubusercontent.com/61089745/159169759-8a539543-a237-4916-a401-51d76b18337b.png)
 
 - Service: Criei as classes Tarefa Service e Cadastro Service definindo seus métodos na interface DAO.
 
-![Service](https://user-images.githubusercontent.com/61089745/141662039-8927ae32-78c8-43e3-b233-13e15c97767e.PNG)
+![image](https://user-images.githubusercontent.com/61089745/159169814-d3fb6451-1ff3-4020-9180-986632f29b24.png)
 
  
 - Service implements: Criei as classes Tarefa e Cadastro e implementei os métodos definidos no Service com inteface DAO usando o JDBC.
 
 Java Database Connectivity (JDBC) é um conjunto de classes e interfaces escritas em Java que fazem o envio de instruções SQL para qualquer banco de dados relacional; 
 
-![image](https://user-images.githubusercontent.com/61089745/141662145-fe473c43-cd2f-467e-98cc-0d08ac044fd7.png)
+![image](https://user-images.githubusercontent.com/61089745/159169869-cdce5c98-f316-4d85-92cd-ef6443e27b18.png)
 
 
 - Classes DAO para conexão com o Banco de Dados: Criei as classes Tarefas e Cadastros para passar os métodos insert, delete, update e lista nas classes.
 
-![DAO](https://user-images.githubusercontent.com/61089745/141662133-a50122f1-c75f-4d30-b7a7-942af643caa7.PNG)
+![image](https://user-images.githubusercontent.com/61089745/159169945-ab313558-718b-4325-b564-60f6e6f67230.png)
 
 
 JAVAFX: Desenhei as telas para exibição do cadastro, edição e deleção da classe Tarefa, Projeto e Funcionário.
