@@ -143,6 +143,8 @@ MYSQL:Tive meu primeiro contato com o banco de dados, conseguimos conciliar o ap
 
 ### **IV - APRENDIZADOS EFETIVOS**:closed_book:
 
+**Hard Skills Efetivamente Desenvolvidas:**
+
 Através do API, consegui programar pela primeira vez utilizando JAVA.
 
 - JAVA: Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems.
@@ -174,5 +176,7 @@ Tive meu primeiro contato com o Banco de Dados conhecendo os principais comandos
 Conhecemos outra ferramenta de repositório o GIT Hub, tinhamos a vivência com a o GIT Lab e resolvemos conhecer outra ferramenta para aumentar nossas perspectivas e efetivar nossos aprendizados. Conseguimos aplicar os comando aprendidos no GIT Lab, reforçando os códigos via terminal (CMD).
 
 - Conhecimento referente a IDE Eclipse.
+
+**Soft Skills Efetivamente Desenvolvidas:**
 
 E no final do projeto, com um semestre conturbado de incertezas e pandemia aprendemos mais sobre o soft skill, sabendo trabalhar em grupo, lidar melhor com os colegas e respeitar as limitações de cada um. Tivemos dois integrantes da equipe que deixaram o grupo por questões de saúde e consequentimente nos redobramos para entregar as sprints. Além desse desafio foi nosso primeiro contato com o cliente externo e conseguimos aperfeiçoar a comunicação, entendimento, criação de requisitos, definições de prioridade e como elaborar uma boa apresentação.
