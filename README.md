@@ -10,7 +10,7 @@
 
 ## FATEC & NECTO - GANTT CHART:chart_with_upwards_trend:
 
-### I- RESUMO DO PROJETO
+### **I - RESUMO DO PROJETO**:page_facing_up: 
 
 Neste segundo Projeto Integrador a FATEC trouxe o primeiro Cliente "NECTO" para que pudéssemos achar uma solução tecnológica para sanar e atender às necessidades do cliente. 
  
@@ -69,7 +69,7 @@ A GUI (Graphical User Interface) permitirá o planejamento colaborativo sobre o 
 
 ![Gantt2](https://user-images.githubusercontent.com/61089745/141657083-849746d2-3416-47e8-b1b2-66174241bb95.PNG)
 
-### II - TECNOLOGIAS ADOTADAS NA SOLUÇÃO 
+### **II - TECNOLOGIAS**:iphone:
 
 Para conciliar o aprendizado com as matérias lecionadas na FATEC, escolhemos a linguagem Java para desenvolver o backend e o Banco de Dados MySQL.
 
@@ -103,7 +103,7 @@ As bibliotecas e tecnologias utilizadas foram:
 - Scrum: Continuamos a usar a metodologia scrum aprendida no primeiro semestre para realizar as entregas do projeto.
 
 
-### III - CONTRIBUIÇÕES INDIVIDUAS/PESSOAIS 
+### **III - CONTRIBUIÇÕES INDIVIDUAIS**:bow:
 
 No segundo semestre iniciamos o aprendizado de Linguagem De Programação I, onde estava sendo lecionado sobre a linguagem JAVA, com isso foi possível conciliar o que estávamos aprendendo em aula e aplicar em nosso projeto, eu contribuí com o projeto criando as principais camadas do backend como:
 - Entidades: Fiquei responsável pelas classes Projeto, Tarefa, Cadastro de tarefa e Cadastro de projeto orientada ao objeto utilizando os métodos getters, setters e o serializable é o processo no qual a instância de um objeto é transformada em uma sequência de bytes e é útil quando precisamos enviar objetos pela rede, salvar no disco, ou comunicar de uma JVM com outra;
@@ -141,7 +141,7 @@ MYSQL:Tive meu primeiro contato com o banco de dados, conseguimos conciliar o ap
 
 
 
-### IIII - APRENDIZADOS EFETIVOS
+### **IV - APRENDIZADOS EFETIVOS**:closed_book:
 
 Através do API, consegui programar pela primeira vez utilizando JAVA.
 
